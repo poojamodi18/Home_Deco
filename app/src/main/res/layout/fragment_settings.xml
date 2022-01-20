@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.settings.SettingsFragment"
+    android:scrollbars="vertical">
+
+    <TextView
+        android:id="@+id/settings_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update your account details"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/settings_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_label"
+        android:hint="Phone Number"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        />
+
+    <EditText
+        android:id="@+id/settings_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_phone_number"
+        android:hint="Full Name"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        />
+
+    <EditText
+        android:id="@+id/settings_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_full_name"
+        android:hint="Address"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/settings_update_account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Update"
+        android:textColor="@color/whiteColor"/>
+
+</RelativeLayout>

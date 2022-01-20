@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "348063846431",
+    "project_id": "homedeco-3a5c9",
+    "storage_bucket": "homedeco-3a5c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348063846431:android:0503c20357c5c07489852a",
+        "android_client_info": {
+          "package_name": "com.home_deco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348063846431-d0udlcd3b3gm8ut0dng936q0lgpa34lu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.home_deco",
+            "certificate_hash": "d81ce70864184c348df673a742b4269c0d894b8a"
+          }
+        },
+        {
+          "client_id": "348063846431-al53obijbtr59eq26k2ebk9r1oshlfci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvLn0Ui1saOTUlnKeKzcHWLIP82wB8Zrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348063846431-al53obijbtr59eq26k2ebk9r1oshlfci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
